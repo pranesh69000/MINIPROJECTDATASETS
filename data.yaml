@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Potato leaf early blight', 'Potato leaf healthy', 'Potato leaf late blight']
+
+roboflow:
+  workspace: miniproject-wz4pi
+  project: plant-diseas-detection-nygtm-nuw6n
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/miniproject-wz4pi/plant-diseas-detection-nygtm-nuw6n/dataset/1
